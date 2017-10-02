@@ -1,0 +1,41 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage[left=20mm, top=20mm, right=20mm, bottom=20mm, nohead, footskip=7mm]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{dirtytalk}
+\usepackage{listings}
+
+\lstset{
+    frame=tb,
+    language=C,
+    numbers=left,
+    aboveskip=3mm,
+    belowskip=3mm,
+    showstringspaces=false,
+    columns=flexible,
+    breaklines=true,
+    breakatwhitespace=true,
+    tabsize=4
+}
+
+\title{\HugeПараллельное программирование}
+\date{}
+
+\newtheorem{definition}{Определение}
+\newtheorem{note}{Замечание}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\include{aomp-1}
+
+\include{aomp-2}
+
+\end{document}
