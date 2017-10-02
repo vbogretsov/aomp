@@ -1,2 +1,2 @@
 # aomp
-Summary of the book "The Art of Multiprocessor Programming"
+Summary of the book "The Art of Multiprocessor Programming" in russian.
